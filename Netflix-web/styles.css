@@ -1,0 +1,140 @@
+/* CSS geral */
+body.background {
+  background-image: url(assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+body {
+  background-color: #000;
+}
+/* CSS geral */
+
+/* CSS cabeçalho */
+header {
+  padding: 30px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+}
+
+.img1 {
+  width: 200px;  
+}
+/* CSS cabeçalho */
+
+/* CSS formulário login */
+#caixa-login {
+  background-color: rgba(0, 0, 0, 0.904);
+  padding: 40px 68px;
+}
+
+.form-control {
+	background: #343434;
+  border-radius: 5px;
+  border-color: transparent;
+  color: #8c898c;
+}
+
+.netflix {
+  width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	background: red;
+	color: #fff;
+	font-size: inherit;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+p a {
+  text-decoration: none; 
+}
+
+.helpt {
+  float: right;
+  color: gray;
+}
+
+.new {
+  color: #737373;
+  font-size: 16px;
+}
+
+.bot {
+  color: #737373;
+  font-size: 13px;
+}
+/* CSS formulário login */
+
+/* CSS rodapé */
+.footer {
+  background-color: rgba(0,0,0,0.9);
+  margin-top: 150px;
+  width: 100%;
+  padding: 50px 15%;
+  color: #343434;
+  display: flex;
+}
+
+.footer div {
+  text-align:left;
+  margin-right: 30px;
+}
+
+.footer div h3 {
+  margin-bottom: 30px;
+}
+
+.col1 p {
+  display: block;
+  text-decoration: none;
+  color:#343434;
+  padding-right: 12px;
+  margin-bottom: 16px;
+}
+
+.col2 p {
+  display: block;
+  text-decoration: none;
+  color:#343434;
+  padding-right: 12px;
+  margin-bottom: 16px;
+}
+
+.col3 p {
+  display: block;
+  text-decoration: none;
+  color:#343434;
+  padding-right: 12px;
+  margin-bottom: 16px;
+}
+
+.col4 p {
+  display: block;
+  text-decoration: none;
+  color:#343434;
+}
+
+.yes {
+  height: 48px;
+  width: 140px;
+  background-color: #000;
+  color: #737373;
+  justify-content: center;
+}
+
+.footer p {
+  color: #737373;
+}
+
+/* CSS rodapé */
+
+@media screen and (min-width: 1024px) {
+  .container-fluid {
+    margin: auto;
+    width: 100%;
+  }
+}
